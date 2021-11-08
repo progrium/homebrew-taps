@@ -3,7 +3,6 @@ class Topframe < Formula
     desc "Local webpage screen overlay for customizing your computing experience"
     homepage "https://github.com/progrium/topframe"
     version "0.2.0"
-    bottle :unneeded
   
     if OS.mac?
         url "https://github.com/progrium/topframe/releases/download/v0.2.0/topframe_0.2.0.zip"
