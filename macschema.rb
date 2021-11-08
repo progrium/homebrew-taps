@@ -3,7 +3,6 @@ class Macschema < Formula
     desc "Toolchain for generating JSON definitions for Apple APIs."
     homepage "https://github.com/progrium/macschema"
     version "0.1.0"
-    bottle :unneeded
   
     if OS.mac?
         url "https://github.com/progrium/macschema/releases/download/v0.1.0/macschema_0.1.0.zip"
