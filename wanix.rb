@@ -1,23 +1,23 @@
 class Wanix < Formula
-  desc "UNIX-like operating and development environment for the browser"
+  desc "Toolchain for Wanix virtual environments"
   homepage "https://github.com/tractordev/wanix"
-  version "0.2.0"
+  version "0.3-preview"
 
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/tractordev/wanix/releases/download/v0.2/wanix_0.2_darwin_arm64.zip"
-      sha256 "0440e94d1124e0839d526d0fc6d6bd8e907f1d3dc2d2c936f5dd0b39cbc3106c"
+      url "https://github.com/tractordev/wanix/releases/download/v0.3-preview/wanix_0.3-preview_darwin_arm64.zip"
+      sha256 "2a06f02ac26ed05af75bbc62f18031c16d04c4001046f6bf2820f2c469e72236"
     else
-      url "https://github.com/tractordev/wanix/releases/download/v0.2/wanix_0.2_darwin_amd64.zip"
-      sha256 "d43f20b13c595221bc9d47fca6061ba779852b5ed87d4f87f7763468f7e9f862"
+      url "https://github.com/tractordev/wanix/releases/download/v0.3-preview/wanix_0.3-preview_darwin_amd64.zip"
+      sha256 "ef4b2a44b0821e50d3a15a5eb3c41ff4d67d2ddfd178ed84136877e82189b09a"
     end
   elsif OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/tractordev/wanix/releases/download/v0.2/wanix_0.2_linux_arm64.zip"
-      sha256 "3746eaa3661122fcbda304ba4b3958c3bb300c649a07ddf0e645de5dc95b1c61"
+      url "https://github.com/tractordev/wanix/releases/download/v0.3-preview/wanix_0.3-preview_linux_arm64.zip"
+      sha256 "70ab83c39e03d1bb1c5f1d640689a59c192deae2ca48e00b3e19151cf56e0cb6"
     else
-      url "https://github.com/tractordev/wanix/releases/download/v0.2/wanix_0.2_linux_amd64.zip"
-      sha256 "9c958fce53221639fb76db5f23a7d494683e5a514575223796ef350c2969ef45"
+      url "https://github.com/tractordev/wanix/releases/download/v0.3-preview/wanix_0.3-preview_linux_amd64.zip"
+      sha256 "47b637c8900c1e7e11486e6b96295cf06895d96231cbf8fbe19383b8e260269b"
     end
   end
 
